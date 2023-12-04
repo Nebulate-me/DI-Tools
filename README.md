@@ -1,5 +1,5 @@
 # SignalsHub
-Windows system for Unity
+DI tools for Unity
 
 ### How to use
 
@@ -7,4 +7,4 @@ Windows system for Unity
 
 ### How to install
 
-In Package Manager click `+` -> `Add package from git URL...` and paste `https://github.com/Nebulate-me/WindowsSystem.git`
+In Package Manager click `+` -> `Add package from git URL...` and paste `https://github.com/Nebulate-me/DI-Tools.git`
