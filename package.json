@@ -1,0 +1,21 @@
+{
+  "name": "com.nebulateme.windows",
+  "version": "1.0.0",
+  "displayName": "DI Tools",
+  "description": "DI tools for Unity",
+  "unity": "2020.3",
+  "unityRelease": "42f1",
+  "documentationUrl": "https://github.com/Nebulate-me/DI-Tools",
+  "changelogUrl": "https://github.com/Nebulate-me/DI-Tools",
+  "licensesUrl": "https://github.com/Nebulate-me/DI-Tools/blob/main/LICENSE",
+  "dependencies": {
+ },
+ "keywords": [
+    "di"
+  ],
+  "author": {
+    "name": "Nebulate.me",
+    "email": "admin@nebulate.me",
+    "url": "https://nebulate.me"
+  }
+}
