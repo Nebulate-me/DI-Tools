@@ -21,7 +21,7 @@ namespace DITools
 
     public static class ContainerExtensions
     {
-        public static void Configure(this DiContainer container, List<ConfigureType> configureTypes)
+        public static void Configure(this DiContainer container, List<ConfigureType> configureTypes, params string[] assemblyNames)
         {
             var conventionBindInfo = new ConventionBindInfo();
             conventionBindInfo.AddAssemblyFilter(assembly =>
@@ -30,6 +30,13 @@ namespace DITools
                 var assemblyName = assemblyNameInfo.Name;
                 if (assemblyName.Contains("Assembly-CSharp"))
                     return true;
+
+                foreach (var name in assemblyNames)
+                {
+                    if (assemblyName.Contains(name))
+                        return true;
+                }
+
                 if (assemblyName.Contains("_Scripts"))
                     return true;
                 return false;
